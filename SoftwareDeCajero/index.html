@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero</title>
+</head>
+<body>
+        <div class="center mt-2">
+            <span>Ingrese la cantidad que desea debitar</span><br>
+            <input type="number" step="any" id="DineroSolicitado"><br>
+            <button type="button" onclick="darDinero()">Debitar</button>
+        </div>
+
+    <div class="center">
+        <p id="Resultado"></p>
+        <button style="display: none;" id="reinicio" onclick="nuevaTransaccion()">Realizar otra trasacción</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
